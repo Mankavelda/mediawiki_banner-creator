@@ -1,5 +1,24 @@
-# Vue 3 + Vite
+# Mediawiki banner creator (T388234)
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A Vue.js frontend project for Outreachy’s contribution phase, creating a customizable full-width banner.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Features
+- Edge-to-edge full-width banner with dynamic background color, text, and image (via URL).
+- Automatic text color contrast for readability.
+- Image URL validation with user feedback for invalid links.
+- Modern, responsive UI with shadowed input fields and smooth transitions.
+- Unit testing with Vitest.
+
+## Setup
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/wikimedia-vue-microtask.git
+   cd wikimedia-vue-microtask
+
+2. Install dependencies:
+    ```bash
+    npm install
+
+3. Run the development server:
+    ```bash
+    npm run dev
